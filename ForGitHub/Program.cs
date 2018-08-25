@@ -10,11 +10,16 @@ namespace ForGitHub
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!!!");
+            //Console.WriteLine("Hello world!!!");
 
-            int age = 666;
+            Man man = new Man();
 
-            Console.WriteLine("I am {0} years old. But is not elder that my best friend.", age);
+            man.name = "Sergey";
+            man.age = 31;
+
+            man.Show();
+
+            //Console.WriteLine("I am {0} years old. But is not elder that my best friend.", age);
 
             Console.Read();
         }
