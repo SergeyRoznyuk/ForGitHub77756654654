@@ -11,6 +11,11 @@ namespace ForGitHub
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world!!!");
+
+            int age = 25;
+
+            Console.WriteLine("I am {0} years old", age);
+
             Console.Read();
         }
     }
