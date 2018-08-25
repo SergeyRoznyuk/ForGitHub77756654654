@@ -12,9 +12,9 @@ namespace ForGitHub
         {
             Console.WriteLine("Hello world!!!");
 
-            int age = 25;
+            int age = 666;
 
-            Console.WriteLine("I am {0} years old", age);
+            Console.WriteLine("I am {0} years old. But is not elder that my best friend.", age);
 
             Console.Read();
         }
